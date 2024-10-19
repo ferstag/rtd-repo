@@ -85,29 +85,6 @@ DATABASES = {
     }
 }
 
-import dj_database_url
-
-DATABASES = {
-    'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost/postgres',
-        conn_max_agre=600
-    )
-}
-
-
-
-
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'rey_toro',
-        'USER': 'admin',
-        'PASSWORD': '123456',
-        'HOST': '#direccion_servidor',
-        'PORT': '3306',      
-    }
-}
 
 
 # Password validation
